@@ -1,0 +1,51 @@
+export const foodData = [
+  {
+    name: "Bò lúc lắc sốt tomyum và thêm rau củ",
+    priceS: "100.000 đ",
+    priceM: "",
+    priceL: "500.000 đ",
+    image: "/images/food1.png",
+  },
+  {
+    name: "Cá bóng mú sốt chanh dây",
+    priceS: "100.000 đ",
+    priceM: "250.000 đ",
+    priceL: "500.000 đ",
+    image: "/images/food2.png",
+  },
+  {
+    name: "Cá chép hấp hồng kong",
+    priceS: "",
+    priceM: "250.000 đ",
+    priceL: "500.000 đ",
+    image: "/images/food3.png",
+  },
+  {
+    name: "BChả mực hạ long",
+    priceS: "100.000 đ",
+    priceM: "250.000 đ",
+    priceL: "",
+    image: "/images/food4.png",
+  },
+  {
+    name: "BChả mực hạ long",
+    priceS: "100.000 đ",
+    priceM: "250.000 đ",
+    priceL: "",
+    image: "/images/food4.png",
+  },
+  {
+    name: "BChả mực hạ long",
+    priceS: "100.000 đ",
+    priceM: "250.000 đ",
+    priceL: "",
+    image: "/images/food4.png",
+  },
+  {
+    name: "BChả mực hạ long",
+    priceS: "100.000 đ",
+    priceM: "250.000 đ",
+    priceL: "500.000 đ",
+    image: "/images/food4.png",
+  },
+];
