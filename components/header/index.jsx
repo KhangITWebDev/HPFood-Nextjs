@@ -3,12 +3,14 @@ import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import SearchBar from "./searchBar";
-import { Badge } from "@mui/material";
+import { Badge, Typography } from "@mui/material";
 import Link from "next/link";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import DeliciousFood from "./deliciousfood";
+import { useRouter } from "next/router";
 
 function Header() {
+  const route = useRouter();
   return (
     <Box mt={1}>
       <AppBar
@@ -45,7 +47,10 @@ function Header() {
               </Box>
               <DeliciousFood />
               <Box color={"#000000"} mr={4}>
-                <Link href="/">
+                <Typography
+                  sx={{ cursor: "pointer" }}
+                  onClick={() => route.push("/service")}
+                >
                   <a
                     style={{
                       display: "flex",
@@ -56,7 +61,7 @@ function Header() {
                     DỊCH VỤ TIỆC
                     <KeyboardArrowDownIcon />
                   </a>
-                </Link>
+                </Typography>
               </Box>
               <Box color={"#000000"} mr={4}>
                 <Link href="/">

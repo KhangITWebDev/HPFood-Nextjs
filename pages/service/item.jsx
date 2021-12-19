@@ -1,9 +1,8 @@
-import { Box, Button, Typography, Grid } from "@mui/material";
-import { red } from "@mui/material/colors";
+import { Box, Button, Grid, Typography } from "@mui/material";
 import React from "react";
-import { prominentData } from "./prominentData";
+import { prominentData } from "../../components/prominentService/prominentData";
 
-function ProminentService() {
+function ServiceItem() {
   const prominent = prominentData;
   return (
     <Box>
@@ -11,28 +10,9 @@ function ProminentService() {
         sx={{
           maxWidth: "1940px",
           margin: "12px auto",
-          padding: "40px 20px 80px",
-          background:
-            "linear-gradient(248.92deg, #524206 0%, #2D260E 101.05%);",
+          padding: "0 0 64px",
         }}
       >
-        <Box
-          sx={{
-            display: "flex",
-            flexDirection: "column",
-            alignItems: "center",
-          }}
-          mb={4}
-        >
-          <img
-            src="/images/Frame2.png"
-            alt=""
-            style={{ width: "24px", height: "60px" }}
-          />
-          <Typography fontSize={36} fontWeight={700} color="#CDA922">
-            DỊCH VỤ NỔI BẬT
-          </Typography>
-        </Box>
         <Box
           sx={{
             maxWidth: "1220px",
@@ -97,4 +77,4 @@ function ProminentService() {
   );
 }
 
-export default ProminentService;
+export default ServiceItem;
