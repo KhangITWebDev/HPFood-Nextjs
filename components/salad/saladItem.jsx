@@ -32,6 +32,7 @@ function SaladItem(props) {
                 mt={0.8}
                 mb={0.8}
                 ml={1.2}
+                sx={{ fontFamily: "Be Vietnam Pro" }}
               >
                 {item.name}
               </Typography>
@@ -41,7 +42,11 @@ function SaladItem(props) {
                   ml={1.2}
                   fontSize={14}
                   fontWeight={400}
-                  sx={{ display: "flex", alignItems: "center" }}
+                  sx={{
+                    display: "flex",
+                    alignItems: "center",
+                    fontFamily: "Be Vietnam Pro",
+                  }}
                 >
                   <img
                     src="/images/SizeS.png"
@@ -61,7 +66,11 @@ function SaladItem(props) {
                   fontWeight={400}
                   ml={1.2}
                   mb={0.6}
-                  sx={{ display: "flex", alignItems: "center" }}
+                  sx={{
+                    display: "flex",
+                    alignItems: "center",
+                    fontFamily: "Be Vietnam Pro",
+                  }}
                 >
                   <img
                     src="/images/SizeM.png"
@@ -81,7 +90,11 @@ function SaladItem(props) {
                   fontWeight={400}
                   ml={1.2}
                   pb={1.2}
-                  sx={{ display: "flex", alignItems: "center" }}
+                  sx={{
+                    display: "flex",
+                    alignItems: "center",
+                    fontFamily: "Be Vietnam Pro",
+                  }}
                 >
                   <img
                     src="/images/SizeL.png"

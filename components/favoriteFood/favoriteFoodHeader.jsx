@@ -25,6 +25,7 @@ function FavoriteFoodHeader(props) {
           fontWeight={700}
           color="#111111"
           ml={1.2}
+          sx={{ fontFamily: "Be Vietnam Pro" }}
         >
           MÓN ĐƯỢC YÊU THÍCH
         </Typography>

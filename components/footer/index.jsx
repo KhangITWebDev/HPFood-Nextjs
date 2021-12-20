@@ -29,7 +29,13 @@ function Footer() {
               alt=""
               style={{ width: "163.8px", height: "60px" }}
             />
-            <Typography mt={1.2} variant="h5" fontSize={20} fontWeight={600}>
+            <Typography
+              mt={1.2}
+              variant="h5"
+              fontSize={20}
+              fontWeight={600}
+              sx={{ fontFamily: "Be Vietnam Pro" }}
+            >
               HP FOOD - HƯƠNG PHỐ GROUP
             </Typography>
             <Typography
@@ -38,6 +44,7 @@ function Footer() {
               fontWeight={400}
               lineHeight={1.5}
               color="rgba(255, 255, 255, 0.7)"
+              sx={{ fontFamily: "Be Vietnam Pro" }}
             >
               Được thiết kế ấn tượng độc đáo theo phong cách tân cổ điển Châu
               Âu. Tọa lạc ngay trung tâm quận Gò Vấp với diện tích hơn 12,675m2
@@ -71,7 +78,12 @@ function Footer() {
           </Box>
         </Box>
         <Box sx={{ width: "40%" }}>
-          <Typography variant="h5" fontSize={18} fontWeight={600}>
+          <Typography
+            variant="h5"
+            fontSize={18}
+            fontWeight={600}
+            sx={{ fontFamily: "Be Vietnam Pro" }}
+          >
             ĐỊA CHỈ LIÊN HỆ
           </Typography>
           <Box mt={2.4}>
@@ -80,6 +92,7 @@ function Footer() {
                 display: "flex",
                 alignItems: "center",
                 marginTop: "12px",
+                fontFamily: "Be Vietnam Pro",
               }}
             >
               <img src="/images/phone.png" alt="" />
@@ -89,6 +102,7 @@ function Footer() {
                 fontWeight={400}
                 lineHeight={1.5}
                 color="rgba(255, 255, 255, 0.7)"
+                sx={{ fontFamily: "Be Vietnam Pro" }}
               >
                 Điện thoại: (028) 3989.6179 - (028) 39894610
               </Typography>
@@ -107,6 +121,7 @@ function Footer() {
                 fontWeight={400}
                 lineHeight={1.5}
                 color="rgba(255, 255, 255, 0.7)"
+                sx={{ fontFamily: "Be Vietnam Pro" }}
               >
                 Email: salehuongpho@gmail.com
               </Typography>
@@ -125,6 +140,7 @@ function Footer() {
                 fontWeight={400}
                 lineHeight={1.5}
                 color="rgba(255, 255, 255, 0.7)"
+                sx={{ fontFamily: "Be Vietnam Pro" }}
               >
                 Địa chỉ: A12 Phan Văn Trị - Phường 7 - Quận Gò Vấp - Tp. Hồ Chí
                 Minh

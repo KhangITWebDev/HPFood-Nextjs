@@ -38,6 +38,7 @@ function ModalProduct({ open, handleClose }) {
             color="#111111"
             fontWeight={700}
             fontSize={28}
+            sx={{ fontFamily: "Be Vietnam Pro" }}
           >
             Bào ngư sốt dầu hào cải xanh
           </Typography>
@@ -60,7 +61,9 @@ function ModalProduct({ open, handleClose }) {
                 }}
               >
                 <img src="/images/SizeS.png" alt="" />
-                <Typography ml={1.2}>100.000 đ</Typography>
+                <Typography ml={1.2} sx={{ fontFamily: "Be Vietnam Pro" }}>
+                  100.000 đ
+                </Typography>
               </Box>
               <Box
                 sx={{
@@ -81,7 +84,7 @@ function ModalProduct({ open, handleClose }) {
                     color: "#CDA922",
                   }}
                 />
-                <Typography>1</Typography>
+                <Typography sx={{ fontFamily: "Be Vietnam Pro" }}>1</Typography>
                 <AddIcon
                   sx={{
                     margin: "8px 0",
@@ -109,7 +112,9 @@ function ModalProduct({ open, handleClose }) {
                 }}
               >
                 <img src="/images/SizeM.png" alt="" />
-                <Typography ml={1.2}>250.000 đ</Typography>
+                <Typography ml={1.2} sx={{ fontFamily: "Be Vietnam Pro" }}>
+                  250.000 đ
+                </Typography>
               </Box>
               <Box
                 sx={{
@@ -158,7 +163,9 @@ function ModalProduct({ open, handleClose }) {
                 }}
               >
                 <img src="/images/SizeL.png" alt="" />
-                <Typography ml={1.2}>500.000 đ</Typography>
+                <Typography ml={1.2} sx={{ fontFamily: "Be Vietnam Pro" }}>
+                  500.000 đ
+                </Typography>
               </Box>
               <Box
                 sx={{
@@ -220,6 +227,11 @@ function ModalProduct({ open, handleClose }) {
               fontFamily: "Be Vietnam Pro",
               color: "#ffffff",
               width: "150px",
+              "&:hover": {
+                color: "#CDA922",
+                backgroundColor: "transparent",
+                border: "1px solid #CDA922",
+              },
             }}
           >
             LƯU VÀO GIỎ

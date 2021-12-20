@@ -41,17 +41,16 @@ function Appetizer() {
               fontWeight={700}
               color="#111111"
               ml={1.2}
+              sx={{ fontFamily: "Be Vietnam Pro" }}
             >
               MÓN KHAI VỊ
             </Typography>
           </Box>
-          <Box
-            color="#CDA922"
-            sx={{ display: "flex" }}
-            fontSize={16}
-            fontFamily={"Be Vietnam Pro"}
-          >
-            <Typography components="sapn" sx={{ cursor: "pointer" }}>
+          <Box color="#CDA922" sx={{ display: "flex" }} fontSize={16}>
+            <Typography
+              components="sapn"
+              sx={{ cursor: "pointer", fontFamily: "Be Vietnam Pro" }}
+            >
               Xem chi tiết
             </Typography>
             <ArrowForwardIcon />

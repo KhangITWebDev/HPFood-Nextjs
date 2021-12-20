@@ -54,6 +54,7 @@ function Slide() {
               fontSize={18}
               fontWeight={400}
               textAlign={"center"}
+              sx={{ fontFamily: "Be Vietnam Pro" }}
             >
               {item.name}
             </Typography>

@@ -20,7 +20,11 @@ function Cart() {
             alt=""
             style={{ width: "32px", height: "32px", marginRight: "12px" }}
           />
-          <Typography fontSize={24} fontWeight={700}>
+          <Typography
+            fontSize={24}
+            fontWeight={700}
+            sx={{ fontFamily: "Be Vietnam Pro" }}
+          >
             GIỎ HÀNG
           </Typography>
         </Box>
@@ -39,7 +43,13 @@ function Cart() {
             alt=""
           />
           <Box ml={1.2}>
-            <Typography fontSize={16} fontWeight={500} color="#111111" mb={1}>
+            <Typography
+              fontSize={16}
+              fontWeight={500}
+              color="#111111"
+              mb={1}
+              sx={{ fontFamily: "Be Vietnam Pro" }}
+            >
               Cá chép hấp hồng kong
             </Typography>
             <Box style={{ display: "flex" }}>
@@ -49,7 +59,12 @@ function Cart() {
                   style={{ width: "18px", height: "18px" }}
                   alt=""
                 />
-                <Typography ml={0.8} fontSize={14} fontWeight={400}>
+                <Typography
+                  ml={0.8}
+                  fontSize={14}
+                  fontWeight={400}
+                  sx={{ fontFamily: "Be Vietnam Pro" }}
+                >
                   X1
                 </Typography>
               </Box>
@@ -66,7 +81,12 @@ function Cart() {
             </Box>
           </Box>
           <Box>
-            <Typography fontSize={16} fontWeight={700} mb={1}>
+            <Typography
+              fontSize={16}
+              fontWeight={700}
+              mb={1}
+              sx={{ fontFamily: "Be Vietnam Pro" }}
+            >
               10.126.000 đ
             </Typography>
             <Box style={{ display: "flex", justifyContent: "flex-end" }}>

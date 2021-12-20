@@ -27,6 +27,7 @@ function NewFoodHeader() {
           fontWeight={700}
           color="#ffffff"
           ml={1.2}
+          sx={{ fontFamily: "Be Vietnam Pro" }}
         >
           Món mới
         </Typography>
@@ -37,7 +38,10 @@ function NewFoodHeader() {
         fontSize={16}
         fontFamily={"Be Vietnam Pro"}
       >
-        <Typography components="sapn" sx={{ cursor: "pointer" }}>
+        <Typography
+          components="sapn"
+          sx={{ cursor: "pointer", fontFamily: "Be Vietnam Pro" }}
+        >
           Xem chi tiết
         </Typography>
         <ArrowForwardIcon />

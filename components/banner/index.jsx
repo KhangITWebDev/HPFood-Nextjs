@@ -24,6 +24,7 @@ function Banner() {
           fontSize={64}
           fontWeight={800}
           color="#DEB722"
+          sx={{ fontFamily: "Be Vietnam Pro" }}
         >
           HUONG PHO GROUP
         </Typography>
@@ -31,11 +32,12 @@ function Banner() {
           textAlign={"center"}
           component="p"
           color="#ffffff"
-          fontSize={24}
-          maxWidth={800}
+          fontSize={48}
+          fontWeight={700}
+          maxwidth={900}
+          sx={{ fontFamily: "Be Vietnam Pro" }}
         >
-          Quis et ac quisque arcu, sed ac tincidunt convallis nunc. Eleifend
-          tincidunt gravida mi turpis eget ac sit.
+          KỂT NỐI YÊU THƯƠNG ĐẾN MỌI NHÀ
         </Typography>
       </Box>
     </Box>

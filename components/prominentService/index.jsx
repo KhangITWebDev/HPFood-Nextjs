@@ -29,7 +29,12 @@ function ProminentService() {
             alt=""
             style={{ width: "24px", height: "60px" }}
           />
-          <Typography fontSize={36} fontWeight={700} color="#CDA922">
+          <Typography
+            fontSize={36}
+            fontWeight={700}
+            color="#CDA922"
+            sx={{ fontFamily: "Be Vietnam Pro" }}
+          >
             DỊCH VỤ NỔI BẬT
           </Typography>
         </Box>
@@ -64,6 +69,7 @@ function ProminentService() {
                     fontWeight={700}
                     color="#FFFFFF"
                     mb={1.2}
+                    sx={{ fontFamily: "Be Vietnam Pro" }}
                   >
                     {item.name}
                   </Typography>
@@ -74,6 +80,7 @@ function ProminentService() {
                     fontWeight={400}
                     lineHeight={1.5}
                     mb={2}
+                    sx={{ fontFamily: "Be Vietnam Pro" }}
                   >
                     {item.desc}
                   </Typography>
@@ -83,6 +90,7 @@ function ProminentService() {
                       border: "1px solid #CDA922",
                       borderRadius: "4px",
                       padding: "4px 20px",
+                      fontFamily: "Be Vietnam Pro",
                     }}
                   >
                     Xem Chi Tiết

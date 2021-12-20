@@ -14,10 +14,18 @@ function Total(props) {
           margin: "0 auto",
         }}
       >
-        <Typography fontSize={16} fontWeight={500}>
+        <Typography
+          fontSize={16}
+          fontWeight={500}
+          sx={{ fontFamily: "Be Vietnam Pro" }}
+        >
           Tổng tiền
         </Typography>
-        <Typography fontSize={24} fontWeight={700}>
+        <Typography
+          fontSize={24}
+          fontWeight={700}
+          sx={{ fontFamily: "Be Vietnam Pro" }}
+        >
           13.828.000 đ
         </Typography>
       </Box>

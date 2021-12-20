@@ -18,12 +18,16 @@ function ProducrHeader() {
     >
       <Box sx={{ display: "flex", alignItems: "center" }}>
         <img src="/images/new.png" alt="" />
-        <Typography variant="h5" ml={1.2}>
+        <Typography variant="h5" ml={1.2} sx={{ fontFamily: "Be Vietnam Pro" }}>
           Món mới
         </Typography>
       </Box>
       <Box sx={{ display: "flex", alignItems: "center" }}>
-        <Typography mr={1.6} color="#666666">
+        <Typography
+          mr={1.6}
+          color="#666666"
+          sx={{ fontFamily: "Be Vietnam Pro" }}
+        >
           Lọc theo
         </Typography>
         <FormControl sx={{ m: 1, minWidth: 255 }}>
@@ -32,7 +36,7 @@ function ProducrHeader() {
             onChange={handleChange}
             displayEmpty
             inputProps={{ "aria-label": "Without label" }}
-            style={{ fontSize: "16px" }}
+            style={{ fontSize: "16px", fontFamily: "Be Vietnam Pro" }}
           >
             <MenuItem style={{ fontSize: "16px" }} value="">
               Món mới

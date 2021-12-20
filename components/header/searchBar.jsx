@@ -30,6 +30,7 @@ const SearchIconWrapper = styled("div")(({ theme }) => ({
 const StyledInputBase = styled(InputBase)(({ theme }) => ({
   color: "#AAAAAA",
   border: "1px solid #DEDEDE",
+  fontFamily: "Be Vietnam Pro",
   borderRadius: "40px",
   "& .MuiInputBase-input": {
     padding: theme.spacing(0.5, 0.5, 0.5, 0.5),
