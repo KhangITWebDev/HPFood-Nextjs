@@ -44,6 +44,7 @@ function ServiceItem() {
                     fontWeight={700}
                     color="#FFFFFF"
                     mb={1.2}
+                    sx={{ fontFamily: "Be Vietnam Pro" }}
                   >
                     {item.name}
                   </Typography>
@@ -54,6 +55,7 @@ function ServiceItem() {
                     fontWeight={400}
                     lineHeight={1.5}
                     mb={2}
+                    sx={{ fontFamily: "Be Vietnam Pro" }}
                   >
                     {item.desc}
                   </Typography>
@@ -63,6 +65,7 @@ function ServiceItem() {
                       border: "1px solid #CDA922",
                       borderRadius: "4px",
                       padding: "4px 20px",
+                      fontFamily: "Be Vietnam Pro",
                     }}
                   >
                     Xem Chi Tiết

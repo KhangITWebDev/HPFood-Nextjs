@@ -3,7 +3,7 @@ import React from "react";
 
 function Banner() {
   return (
-    <Box mt={1} position="relative">
+    <Box position="relative">
       <img src="/images/banner.png" alt="" />
       <img
         src="/images/banner2.png"

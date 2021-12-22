@@ -18,6 +18,7 @@ function BannerService() {
           color: "#ffffff",
           fontSize: "42px",
           fontWeight: "700",
+          fontFamily: "Be Vietnam Pro",
           transform: "translateY(-50%) translateX(-50%)",
         }}
       >

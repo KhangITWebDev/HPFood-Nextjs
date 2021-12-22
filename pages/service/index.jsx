@@ -20,6 +20,7 @@ function Service() {
           textAlign: "center",
           fontSize: "16px",
           lineHeight: "1.5",
+          fontFamily: "Be Vietnam Pro",
         }}
       >
         Khách hàng đến với Hương Phố luôn cảm thấy thoải mái và an tâm trước sự

@@ -8,15 +8,16 @@ import Link from "next/link";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import DeliciousFood from "./deliciousfood";
 import { useRouter } from "next/router";
+import PartyService from "./partyService";
 
 function Header() {
   const route = useRouter();
   return (
-    <Box mt={1}>
+    <Box>
       <AppBar
         position="static"
         style={{
-          backgroundColor: "transparent",
+          backgroundColor: "#ffffff",
           boxShadow: "none",
         }}
       >
@@ -24,6 +25,7 @@ function Header() {
           sx={{
             justifyContent: "space-between",
             alignItems: "center",
+            padding: "10px 0",
           }}
         >
           <Box sx={{ display: "flex", alignItems: "center" }}>
@@ -46,25 +48,9 @@ function Header() {
                 </Link>
               </Box>
               <DeliciousFood />
+              <PartyService />
               <Box color={"#000000"} mr={4}>
-                <Typography
-                  sx={{ cursor: "pointer" }}
-                  onClick={() => route.push("/service")}
-                >
-                  <a
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      fontSize: "14px",
-                    }}
-                  >
-                    DỊCH VỤ TIỆC
-                    <KeyboardArrowDownIcon />
-                  </a>
-                </Typography>
-              </Box>
-              <Box color={"#000000"} mr={4}>
-                <Link href="/">
+                <Link href="/news">
                   <a
                     style={{
                       display: "flex",
@@ -78,7 +64,7 @@ function Header() {
                 </Link>
               </Box>
               <Box color={"#000000"}>
-                <Link href="/">
+                <Link href="/contact">
                   <a
                     style={{
                       fontSize: "14px",
@@ -96,8 +82,14 @@ function Header() {
             <SearchBar />
             <Badge badgeContent={12} color="primary">
               <img
-                style={{ width: "24px", height: "24px", marginLeft: "32px" }}
+                style={{
+                  width: "24px",
+                  height: "24px",
+                  marginLeft: "32px",
+                  cursor: "pointer",
+                }}
                 src="/images/cart.png"
+                onClick={() => route.push("/cart")}
               />
             </Badge>
           </Box>
