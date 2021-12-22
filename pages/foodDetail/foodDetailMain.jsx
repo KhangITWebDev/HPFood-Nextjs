@@ -16,7 +16,13 @@ function FoodDetailMain() {
         marginBottom: "32px",
       }}
     >
-      <Typography variant="h4" fontSize={28} fontWeight={700} mb={2}>
+      <Typography
+        variant="h4"
+        fontSize={28}
+        fontWeight={700}
+        mb={2}
+        sx={{ fontFamily: "Be Vietnam Pro" }}
+      >
         THÔNG TIN SẢN PHẨM
       </Typography>
       <Box>
@@ -32,6 +38,7 @@ function FoodDetailMain() {
             mr={4}
             color="#CDA922"
             sx={{ cursor: "pointer" }}
+            sx={{ fontFamily: "Be Vietnam Pro" }}
             onClick={() => {
               setShowDesc(true);
               setShowMenu(false);
@@ -41,7 +48,11 @@ function FoodDetailMain() {
           </Typography>
           <Typography
             variant="span"
-            sx={{ cursor: "pointer", "&:hover": { color: "#CDA922" } }}
+            sx={{
+              cursor: "pointer",
+              "&:hover": { color: "#CDA922" },
+              fontFamily: "Be Vietnam Pro",
+            }}
             onClick={() => {
               setShowDesc(false);
               setShowMenu(true);

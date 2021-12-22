@@ -52,6 +52,7 @@ function MenuFood() {
           color="#333333"
           fontSize={20}
           fontWeight={700}
+          sx={{ fontFamily: "Be Vietnam Pro" }}
         >
           Size
         </Typography>
@@ -65,17 +66,40 @@ function MenuFood() {
                 background: "rgba(205, 169, 34, 0.06)",
               }}
             >
-              <TableCell sx={{ fontSize: "14px", fontWeight: "600" }}>
+              <TableCell
+                sx={{
+                  fontSize: "14px",
+                  fontWeight: "600",
+                  fontFamily: "Be Vietnam Pro",
+                }}
+              >
                 Tên nguyên liệu
               </TableCell>
-              <TableCell sx={{ fontSize: "14px", fontWeight: "600" }}>
+              <TableCell
+                sx={{
+                  fontSize: "14px",
+                  fontWeight: "600",
+                  fontFamily: "Be Vietnam Pro",
+                }}
+              >
                 Số lượng
               </TableCell>
-              <TableCell sx={{ fontSize: "14px", fontWeight: "600" }}>
+              <TableCell
+                sx={{
+                  fontSize: "14px",
+                  fontWeight: "600",
+                  fontFamily: "Be Vietnam Pro",
+                }}
+              >
                 Đơn vị
               </TableCell>
               <TableCell
-                sx={{ fontSize: "14px", fontWeight: "600", width: "50%" }}
+                sx={{
+                  fontSize: "14px",
+                  fontWeight: "600",
+                  width: "50%",
+                  fontFamily: "Be Vietnam Pro",
+                }}
               >
                 Mô tả
               </TableCell>
@@ -87,12 +111,18 @@ function MenuFood() {
                 key={row.name}
                 sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
               >
-                <TableCell component="th" scope="row">
+                <TableCell sx={{ fontFamily: "Be Vietnam Pro" }}>
                   {row.name}
                 </TableCell>
-                <TableCell>{row.quantity}</TableCell>
-                <TableCell>{row.unit}</TableCell>
-                <TableCell>{row.desc}</TableCell>
+                <TableCell sx={{ fontFamily: "Be Vietnam Pro" }}>
+                  {row.quantity}
+                </TableCell>
+                <TableCell sx={{ fontFamily: "Be Vietnam Pro" }}>
+                  {row.unit}
+                </TableCell>
+                <TableCell sx={{ fontFamily: "Be Vietnam Pro" }}>
+                  {row.desc}
+                </TableCell>
               </TableRow>
             ))}
           </TableBody>
@@ -112,6 +142,7 @@ function MenuFood() {
           color="#333333"
           fontSize={20}
           fontWeight={700}
+          sx={{ fontFamily: "Be Vietnam Pro" }}
         >
           Size
         </Typography>
@@ -125,17 +156,40 @@ function MenuFood() {
                 background: "rgba(205, 169, 34, 0.06)",
               }}
             >
-              <TableCell sx={{ fontSize: "14px", fontWeight: "600" }}>
+              <TableCell
+                sx={{
+                  fontSize: "14px",
+                  fontWeight: "600",
+                  fontFamily: "Be Vietnam Pro",
+                }}
+              >
                 Tên nguyên liệu
               </TableCell>
-              <TableCell sx={{ fontSize: "14px", fontWeight: "600" }}>
+              <TableCell
+                sx={{
+                  fontSize: "14px",
+                  fontWeight: "600",
+                  fontFamily: "Be Vietnam Pro",
+                }}
+              >
                 Số lượng
               </TableCell>
-              <TableCell sx={{ fontSize: "14px", fontWeight: "600" }}>
+              <TableCell
+                sx={{
+                  fontSize: "14px",
+                  fontWeight: "600",
+                  fontFamily: "Be Vietnam Pro",
+                }}
+              >
                 Đơn vị
               </TableCell>
               <TableCell
-                sx={{ fontSize: "14px", fontWeight: "600", width: "50%" }}
+                sx={{
+                  fontSize: "14px",
+                  fontWeight: "600",
+                  width: "50%",
+                  fontFamily: "Be Vietnam Pro",
+                }}
               >
                 Mô tả
               </TableCell>
@@ -147,12 +201,18 @@ function MenuFood() {
                 key={row.name}
                 sx={{ "&:last-child td, &:last-child th": { border: 0 } }}
               >
-                <TableCell component="th" scope="row">
+                <TableCell sx={{ fontFamily: "Be Vietnam Pro" }}>
                   {row.name}
                 </TableCell>
-                <TableCell>{row.quantity}</TableCell>
-                <TableCell>{row.unit}</TableCell>
-                <TableCell>{row.desc}</TableCell>
+                <TableCell sx={{ fontFamily: "Be Vietnam Pro" }}>
+                  {row.quantity}
+                </TableCell>
+                <TableCell sx={{ fontFamily: "Be Vietnam Pro" }}>
+                  {row.unit}
+                </TableCell>
+                <TableCell sx={{ fontFamily: "Be Vietnam Pro" }}>
+                  {row.desc}
+                </TableCell>
               </TableRow>
             ))}
           </TableBody>

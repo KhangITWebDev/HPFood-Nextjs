@@ -46,10 +46,22 @@ function FoodDetailTop() {
         </Box>
       </Box>
       <Box sx={{ width: "50%" }}>
-        <Typography variant="h4" fontSize={28} fontWeight={700} mb={1}>
+        <Typography
+          variant="h4"
+          fontSize={28}
+          fontWeight={700}
+          mb={1}
+          sx={{ fontFamily: "Be Vietnam Pro" }}
+        >
           Bào ngư sốt dầu hào cải xanh
         </Typography>
-        <Typography fontSize={14} fontWeight={400} lineHeight={1.5} mb={4}>
+        <Typography
+          fontSize={14}
+          fontWeight={400}
+          lineHeight={1.5}
+          mb={4}
+          sx={{ fontFamily: "Be Vietnam Pro" }}
+        >
           Món bào ngư sốt dầu hào với thịt bào ngư Hàn Quốc mềm mềm dai giòn vị
           ngọt chế biến cùng sốt dầu hào đậm đà hương vị kiểu Trung Hoa, hương
           thơm quyến rũ
@@ -73,7 +85,11 @@ function FoodDetailTop() {
               alt=""
               style={{ width: "24px", height: "24px" }}
             />
-            <Typography ml={1.2} fontSize={20}>
+            <Typography
+              ml={1.2}
+              fontSize={20}
+              sx={{ fontFamily: "Be Vietnam Pro" }}
+            >
               100.000 đ
             </Typography>
           </Box>
@@ -95,7 +111,7 @@ function FoodDetailTop() {
                 color: "#CDA922",
               }}
             />
-            <Typography ml={4} mr={4}>
+            <Typography ml={4} mr={4} sx={{ fontFamily: "Be Vietnam Pro" }}>
               1
             </Typography>
             <AddIcon
@@ -127,7 +143,11 @@ function FoodDetailTop() {
               alt=""
               style={{ width: "24px", height: "24px" }}
             />
-            <Typography ml={1.2} fontSize={20}>
+            <Typography
+              ml={1.2}
+              fontSize={20}
+              sx={{ fontFamily: "Be Vietnam Pro" }}
+            >
               250.000 đ
             </Typography>
           </Box>
@@ -181,7 +201,11 @@ function FoodDetailTop() {
               alt=""
               style={{ width: "24px", height: "24px" }}
             />
-            <Typography ml={1.2} fontSize={20}>
+            <Typography
+              ml={1.2}
+              fontSize={20}
+              sx={{ fontFamily: "Be Vietnam Pro" }}
+            >
               500.000 đ
             </Typography>
           </Box>
@@ -224,7 +248,9 @@ function FoodDetailTop() {
             marginTop: "32px",
           }}
         >
-          <Typography>Giá chưa bao gồm 10% VAT</Typography>
+          <Typography sx={{ fontFamily: "Be Vietnam Pro" }}>
+            Giá chưa bao gồm 10% VAT
+          </Typography>
           <Button
             sx={{
               background: "#CDA922",
@@ -240,7 +266,12 @@ function FoodDetailTop() {
             }}
           >
             <ShoppingCartOutlinedIcon />
-            <Typography mt={1.2} mb={1.2} ml={1.2}>
+            <Typography
+              mt={1.2}
+              mb={1.2}
+              ml={1.2}
+              sx={{ fontFamily: "Be Vietnam Pro" }}
+            >
               Thêm vào giỏ
             </Typography>
           </Button>

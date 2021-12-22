@@ -15,14 +15,8 @@ function BreadCrumb(props) {
       <Typography mr={1} sx={{ fontFamily: "Be Vietnam Pro" }}>
         {">"}
       </Typography>
-      <Typography mr={1} sx={{ fontFamily: "Be Vietnam Pro" }} color="#CDA922">
-        Món mới
-      </Typography>
       <Typography mr={1} sx={{ fontFamily: "Be Vietnam Pro" }}>
-        {">"}
-      </Typography>
-      <Typography mr={1} sx={{ fontFamily: "Be Vietnam Pro" }}>
-        Bào ngư sốt dầu hào cải xanh
+        Giỏ hàng
       </Typography>
     </Box>
   );
